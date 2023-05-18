@@ -1,0 +1,311 @@
+body {
+    font-family: 'Cabin',
+        sans-serif;
+}
+
+:root {
+    --dark-blue: #00131E;
+    --white: #FFFFFF;
+    --dark: #140F07;
+    --orange: #FF3D00;
+    --grey: #D9D9D9;
+    --button: #AAAEAD;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1144px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.header {
+    background-color: var(--dark-blue);
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex-ul-contacts {
+    display: flex;
+    gap: 42px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.flex-ul {
+    display: flex;
+    gap: 42px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.navigation {
+    padding-left: 0;
+    display: flex;
+}
+
+.contacts {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 1.4;
+    align-items: center;
+    display: block;
+    padding-top: 43px;
+    padding-bottom: 47px;
+
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--orange);
+}
+
+.menu {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    align-items: center;
+    color: var(--white);
+    padding-top: 43px;
+    padding-bottom: 47px;
+    display: block;
+}
+
+.menu:hover,
+.menu:focus {
+    color: var(--orange);
+}
+
+.logo {
+    display: block;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 207px;
+}
+
+.adress {
+    display: flex;
+}
+
+
+
+/* ============= Section one ================= */
+.card {
+    background: rgba(217, 217, 217, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 83px;
+    padding-right: 83px;
+    padding-top: 32px;
+    padding-bottom: 33px;
+    max-width: 598px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-text {
+    max-width: 432px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    color: var(--dark);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.button {
+    width: 200px;
+    left: calc(50% - 200px/2);
+    top: 29.82%;
+    bottom: 68.17%;
+    background: var(--button);
+    border-radius: 20px;
+    border: none;
+    color: var(--white);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--orange);
+}
+
+.head {
+
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--white);
+
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 1.28;
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: 0;
+}
+
+
+
+.section-one {
+    background-image: url(../image/kaboompics_blue-painted-concrete-offshore-dams-10492.jpg);
+    background-size: cover;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 264px;
+    padding-bottom: 254px;
+}
+
+
+
+.card-circle {
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-section {
+    display: flex;
+    gap: 100px;
+}
+
+.header-two {
+
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.4;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+.section-two {
+    padding-top: 82px;
+    background-color: var(--grey);
+    padding-bottom: 110px;
+}
+
+.main-text-section {
+    max-width: 200px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    height: 42px;
+    align-items: center;
+    color: var(--dark);
+    text-align: center;
+    margin-top: 16px;
+}
+
+.li-section {
+    width: calc((100%-300px)/4);
+
+}
+
+
+
+.section-three {
+    background-color: var(--white);
+    padding-top: 42px;
+    padding-bottom: 196px;
+}
+
+.ul-section-three {
+    display: flex;
+    gap: 103px;
+}
+
+.head-three {
+    margin-bottom: 112px;
+    color: var(--dark);
+
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.4;
+    align-items: center;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: var(--dark-blue);
+    padding-top: 24px;
+    padding-bottom: 42px;
+}
+
+.header-footer {
+    color: var(--white);
+    font-size: 20px;
+    line-height: 1.4;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.footer-contacts {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 1.4;
+    align-items: center;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--orange);
+}
+
+.li-footer {
+    margin-bottom: 8px;
+}
